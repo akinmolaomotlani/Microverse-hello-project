@@ -1,36 +1,8 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
+ 
+  <h3><b>Hello Microverse</b></h3>
 
 </div>
 
@@ -49,7 +21,7 @@ After you're finished please remove all the comments and instructions!
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -60,13 +32,17 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Hello-microverse-project] <a name="setting Up a linters"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**[Hello-microverse-project]** is a project to set up html-css linters in order to be able to detect bugs in our code
 
 ## 🛠 Built With <a name="built-with"></a>
+
+1. HTML
+2. CSS
+3. LINTERS
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -75,21 +51,9 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://reactjs.org/">html</a></li>
+    <li><a href="https://reactjs.org/">css</a></li>
+    <li><a href="https://reactjs.org/">javascipt </a></li>
   </ul>
 </details>
 
@@ -97,35 +61,35 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+Added html.index file
+added style.css
+added linters.yml
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[html.index]**
+- **[style.css]**
+- **[linters.yml]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 > Describe how a new developer could make use of your project.
+> This project will help a new developer to indentifer bugs in the early days of his coding
+> and also keeps the working pace clean
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
+
+- web browser (google chrome)
+- code editor
+- git
 
 <!--
 Example command:
@@ -144,7 +108,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/akinmolaomotlani/Hello-project.git
 ```
 --->
 
@@ -153,17 +117,19 @@ Example commands:
 Install this project with:
 
 <!--
-Example command:
+run this command  :
 
 ```sh
   cd my-project
-  gem install
+  npm install
 ```
 --->
 
 ### Usage
 
 To run the project, execute the following command:
+
+open index.html using server extension
 
 <!--
 Example command:
@@ -177,17 +143,14 @@ Example command:
 
 To run tests, run the following command:
 
-<!--
-Example command:
+t> comming soon
 
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+<!--
+
 
 ### Deployment
 
-You can deploy this project using:
+t> comming soon   :
 
 <!--
 Example:
@@ -205,16 +168,10 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 ** Omotolani Akinmola **
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- GitHub: [@githubhandle](https://github.com/akinmolaomotlani)
+- Twitter: [@twitterhandle](https://twitter.com/AgbayemiAkinmola)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -225,9 +182,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] Add header
+- [ ] Add footer
+- [ ] Add more styling
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -247,7 +204,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project, please give me a star
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -257,7 +214,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank Microverse for the opportunity
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
